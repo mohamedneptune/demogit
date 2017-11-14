@@ -9,18 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ui.activity.AboutActivity">
 
-    <TextView
-        android:id="@+id/title_application"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
-        android:text="@string/app_name"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        tools:ignore="HardcodedText" />
-
-    <LinearLayout
+ <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title_application"
@@ -37,11 +26,26 @@
             android:text="Application version"
             tools:ignore="HardcodedText" />
 
-        <TextView
+       
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+
+ <TextView
             android:id="@+id/application_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="47dp"
             android:layout_marginStart="47dp" />
-    </LinearLayout>
+
+   
 </RelativeLayout>
